@@ -372,7 +372,7 @@ body{
         background-color: inherit;
         font-family: inherit;
         margin: 0;
-      }
+    }
     .subnav-content {
         display: none;
         position: absolute;
@@ -447,6 +447,14 @@ body{
     }
     .home button{
         width: 150px;
+      }
+      .box-chat div button a{
+        font-size: 20px;
+        text-align: center;
+      }
+      .box-chat .social a i{
+       
+        font-size: 16px;
       }
 
     }
