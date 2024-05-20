@@ -357,8 +357,7 @@ body{
     .subnav1{
         display:none;
     }
-    .subnav {
-        color: black;
+    .subnav {    
         display: block;
         float: left;
         overflow: hidden;
@@ -374,9 +373,6 @@ body{
         font-family: inherit;
         margin: 0;
       }
-    .navbar a:hover, .subnav:hover .subnavbtn:hover{
-        background-color: #291c3a;
-      }
     .subnav-content {
         display: none;
         position: absolute;
@@ -391,7 +387,6 @@ body{
         text-decoration: none;
       }
     .subnav-content a:hover {
-        background-color:  #291c3a;
         color: white;
       }
     .subnav:hover .subnav-content {
@@ -402,30 +397,53 @@ body{
        width: 100%;
        display: flex;
        justify-content: center;
+       text-align: center;
       }
-    .home h2{
-        color: white;
-        font-size: 50px;
-        font-weight: bold;
-        margin: 50px 0px;
-    }
     .home h1{
         color: #dccfed;
+        font-size: 50px;
+        font-weight: bold;
+        
+    }
+    .home h3{
+        color: white;
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+    .home h4{
+        text-align: center;
+        color: white;
         font-size: 40px;
-        margin: 10px 0px;
     }
-    .down-sec-hero div p{
-        font-size: 10px;
+    #about-section{
+        text-align: center;
+        margin: 5px;
+       
     }
-    .logos img{
-        display: none;
+    #skills-section,#about-section,.project{
+        margin-top:-80px;
     }
+    #about-section p,#skills-section p,.project p{
+        font-size: large;
+    }
+    #about-section h2,#skills-section  h2,.project h2{
+        font-size: xx-large;
+    }
+     #skills-section div{
+        width:80%;
+     }
+     .footer{
+        text-align: center;
+     }
+    .box-chat h2{
+       font-size: xx-large;
+    }
+
     .box-chat div span{
         display: none;
     }
     .box-chat div p{
         display: none;
-
     }
     .home button{
         width: 150px;
@@ -452,9 +470,7 @@ body{
         font-family: inherit;
         margin: 0;
       }
-    .navbar a:hover, .subnav:hover .subnavbtn:hover{
-        background-color: #291c3a;
-      }
+    
     .subnav-content {
         display: none;
         position: absolute;
@@ -465,12 +481,10 @@ body{
       }
     .subnav-content a {
         margin-top: 5px;
-       
         color:#8121D0 ;
         text-decoration: none;
       }
     .subnav-content a:hover {
-        background-color:  #291c3a;
         color: white;
       }
     .subnav:hover .subnav-content {
