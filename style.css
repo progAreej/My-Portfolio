@@ -1,0 +1,500 @@
+@import url(https://db.onlinewebfonts.com/c/f3454840beab7d594b699ec4b321259b?family=Freight+Display+W01+Medium);
+:root {
+    --border-radius: 10px;
+    --button-padding: 10px 30px;
+  }
+  
+body{
+    
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* navbar --------------------------------------------------------------------------- */
+.navbar{
+    background-image: linear-gradient(to right, #8121D0 60%, #291c3a);
+}
+.navbar ul li a{
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #dccfed;
+}
+.navbar button{
+    color: #291c3a;
+    font-weight: bold;
+    background-color: white;
+    padding:10px 30px;
+    border-radius: var(--border-radius);
+    border:none;
+    
+}
+.navbar button a{
+    color: #291c3a;
+    text-decoration: none;
+}
+.navbar button:hover{
+    background-color: #dccfed;
+}
+.subnav{
+    display: none;
+}  
+.subnav div ul li a{
+    color: #331C52;
+}
+
+/* home section--------------------------------------------------------- */ 
+
+.home{
+    border-top: 1px solid #291c3a;
+    background-color: #331C52;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-size: 50%;
+    height:600px;
+    padding: 30px;
+    padding-top: 50px;
+}
+.home h1{
+    font-family: "Freight Display W01 Medium";
+    color: white;
+    font-size: 70px;
+    margin: 10px 0px;
+}
+
+.home h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+.home h3{
+    color: #dccfed;
+    font-family: "Freight Display W01 Medium";
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+.home h4{
+  font-family: "Freight Display W01 Medium";
+  font-size:55px;
+  color: white;
+  margin: 10px 0px;
+}
+ .home button{
+  
+    width: 15%;
+    background-color: #e1ebe0;
+    border-radius: 20px;
+    border: none;
+ }
+.home button:hover{
+    background-color: #dccfed;
+}
+
+.home button a{
+    text-decoration: none;
+    color: #331C52;
+    font-weight: bold;
+    font-size:30px;
+}
+
+/* sections -------------------------------------------------------------------------------- */
+.sections{
+    background-color: #e1ebe0;
+    background-image: url(./images/bg-top.svg);
+    background-repeat:no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+}
+
+.section div{
+    margin: 10px ;
+
+}
+.sections div h2{
+    color:#291c3a;
+    font-weight: bold;
+}
+
+.sections div p{
+    color:#331C52;
+}
+#about-section{
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+}
+#about-section p{
+    font-size: xx-large;
+    text-align:justify;
+}
+#about-section  h2{
+    font-size: 60px;
+}
+
+/* skills section --------------------------------------------------------------------------- */
+#skills-section{
+   display: grid;
+   justify-content:center;
+   width: 100%;
+   text-align: center;
+ }
+ #skills-section h2{
+    font-size: 60px;
+ }
+#skills-section p{
+    font-size: xx-large;
+ }
+
+#skills-section img{
+    width: 25%;
+    background-color: #331C52;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:10px 10px 10px #331C52;
+}
+
+#skills-section img:hover{
+    background-color: #dccfed;
+ }
+/* projects section --------------------------------------------------------------- */
+.project{
+    margin: 100px 0px;
+    width: 100%;
+    height: 650px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.project h2{
+    font-size: 60px;
+}
+.project p{
+    font-size: xx-large;
+}
+
+.card-of-my-project{
+  overflow-x: scroll;
+  scrollbar-color:#331C52 white;
+}
+
+.card-of-my-project div{
+    width:300px ;
+    height: 350px;
+    border-radius: 20px;
+    background-color:#dccfed;
+    margin: 0px 5px;
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-of-my-project img{
+    
+    border-radius: 20px;
+    display: grid;
+    justify-self: center;
+    width: 280px;
+    box-shadow: 5px 5px  20px  #8121D0;
+}
+
+.card-of-my-project div h3{
+    font-size: x-large;
+    color: #331C52;
+}
+
+.card-of-my-project div button{
+    background-color: #331C52;
+    border: none;
+    border-radius: 20px;
+    color: #dccfed;
+    font-size: x-large;
+    height: 50px;
+}
+
+.card-of-my-project div a{
+    text-decoration: none;
+    color: #dccfed;
+}
+
+.card-of-my-project div button:hover{
+    background-color: #8121D0;
+    color: #331C52;
+}
+
+ /* box-chating section ------------------------------------------------------ */
+.box-chat div span{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    width: 140px;
+    padding: 10px;
+    color: #331C52;
+    margin: 1%;
+    display: flex;
+    font-size:20px;
+    border: 1px solid #331C52;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.box-chat div span:nth-child(odd){
+    color:#dccfed;
+    background-color: #331C52;
+}
+
+ /* ------------ */
+.box-chat{
+    padding: 20px;
+    background-color: #dccfed;
+    margin: 20px 10px;
+}
+
+.box-chat h2{
+    font-size: 300%;
+    text-align: center;
+}
+.box-chat div button{
+    background-color: #331C52;
+    border-radius: 20px;
+    margin: 10px;
+    width: 200px;
+    height:70px;
+    border: 1px solid #331C52;
+}
+.box-chat div button a{
+    text-decoration: none;
+    color: #dccfed;
+    font-size: 30px;
+}
+.box-chat div button:hover{
+   background-color: #8121D0;
+   
+ 
+}
+
+/* contact section ------------------------------------------------------------ */
+.social i{
+    background-color: #dccfed;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid #331C52;
+    padding: 20px;
+    color: #331C52;
+}
+.social i:hover{
+    background-color: #8121D0;
+}
+/* footer section ----------------------------------------- */
+.footer{
+    width: 100%;
+    background-color: #331C52;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+.footer i{
+   color: #dccfed;
+   border-radius: 50%;
+   padding: 7px;
+}
+
+.footer div a{
+    text-decoration: none; 
+}
+
+/* animation section ----------------------------- */
+.home{
+    animation-name: animation; 
+    position: relative; 
+    animation-duration: 2s; 
+}
+
+ @keyframes animation {
+    00% {
+     top: 0px;
+    }
+    50% {
+     bottom: 500px;
+    }
+    100% {
+    bottom: 0px;
+    }
+}
+  
+.navbar li a {
+    position: relative; 
+    transition: top 0.3s; 
+}
+
+.navbar li a:hover{
+     top: -3px;
+}
+
+#skills-section div img {
+    position: relative; 
+    transition: top 0.3s; 
+}
+
+#skills-section div img:hover{
+     top: -15px;
+}
+ 
+
+/* responcive section ---------------------------------------------------------------- */
+@media all and (max-width:480px){
+
+    .subnav1{
+        display:none;
+    }
+    .subnav {
+        color: black;
+        display: block;
+        float: left;
+        overflow: hidden;
+        padding:5px 0px;
+      }
+    .subnav .subnavbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+    .navbar a:hover, .subnav:hover .subnavbtn:hover{
+        background-color: #291c3a;
+      }
+    .subnav-content {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 1;
+      }
+    .subnav-content a {
+        margin-top: 5px;
+        color:#8121D0 ;
+        text-decoration: none;
+      }
+    .subnav-content a:hover {
+        background-color:  #291c3a;
+        color: white;
+      }
+    .subnav:hover .subnav-content {
+        display: block;
+      }
+    .home {
+       background-image: none;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+      }
+    .home h2{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        margin: 50px 0px;
+    }
+    .home h1{
+        color: #dccfed;
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+    .down-sec-hero div p{
+        font-size: 10px;
+    }
+    .logos img{
+        display: none;
+    }
+    .box-chat div span{
+        display: none;
+    }
+    .box-chat div p{
+        display: none;
+
+    }
+    .home button{
+        width: 150px;
+      }
+
+    }
+@media only screen and (max-width: 768px) {
+    .subnav1{
+        display:none;
+    }
+    .subnav {
+        display: block;
+        float: left;
+        overflow: hidden;
+        padding:5px 0px;
+      }
+    .subnav .subnavbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+    .navbar a:hover, .subnav:hover .subnavbtn:hover{
+        background-color: #291c3a;
+      }
+    .subnav-content {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 1;
+      }
+    .subnav-content a {
+        margin-top: 5px;
+       
+        color:#8121D0 ;
+        text-decoration: none;
+      }
+    .subnav-content a:hover {
+        background-color:  #291c3a;
+        color: white;
+      }
+    .subnav:hover .subnav-content {
+        display: block;
+      }
+    .home{
+        background-image: none;
+      }
+      .home h1{
+        font-size:50px;
+      }
+      .home h3,h2{
+        font-size:40px;
+      }
+      .home button{
+        width: 200px;
+      }
+    .down-sec-hero div p{
+        font-size: 13px;
+      }
+    
+      #skills-section img{
+        width: 20%;
+      }
+     
+    
+}
